@@ -5,52 +5,52 @@ import { cn } from "@/lib/utils";
 
 const experience = [
     {
-        date: "2023 - Present",
-        title: "Lead Developer",
-        company: "Tech Solutions Inc.",
+        date: "2024 - Present",
+        title: "Frontend React Developer",
+        company: "Future Consultancy",
         color: "group-hover:text-purple-400",
     },
     {
-        date: "2021 - 2023",
-        title: "Senior UI/UX Designer",
-        company: "Creative Agency",
+        date: "2024 - 2025",
+        title: "Software Associate",
+        company: "CVS Info Solutions",
         color: "group-hover:text-pink-400",
     },
-    {
-        date: "2019 - 2021",
-        title: "Frontend Developer",
-        company: "StartUp Hub",
-        color: "group-hover:text-blue-400",
-    },
-    {
-        date: "2018 - 2019",
-        title: "Junior Developer",
-        company: "Web Studio",
-        color: "group-hover:text-cyan-400",
-    },
+    // {
+    //     date: "2019 - 2021",
+    //     title: "Frontend Developer",
+    //     company: "StartUp Hub",
+    //     color: "group-hover:text-blue-400",
+    // },
+    // {
+    //     date: "2018 - 2019",
+    //     title: "Junior Developer",
+    //     company: "Web Studio",
+    //     color: "group-hover:text-cyan-400",
+    // },
 ];
 
 const education = [
     {
-        date: "2020 - 2022",
-        title: "Master in Computer Science",
-        school: "Tech University",
+        date: "2021 - 2024",
+        title: "Bachelor of Computer Application",
+        school: "University of Calicut",
     },
     {
-        date: "2016 - 2020",
-        title: "Bachelor in Design",
-        school: "Design Institute",
+        date: "2020 - 2021",
+        title: "Plus Two",
+        school: "HMY Higher Secondary School",
     },
-    {
-        date: "2014 - 2016",
-        title: "Web Development Certification",
-        school: "Online Academy",
-    },
-    {
-        date: "2012 - 2014",
-        title: "Computer Science Basics",
-        school: "High School",
-    },
+    // {
+    //     date: "2014 - 2016",
+    //     title: "Web Development Certification",
+    //     school: "Online Academy",
+    // },
+    // {
+    //     date: "2012 - 2014",
+    //     title: "Computer Science Basics",
+    //     school: "High School",
+    // },
 ];
 
 export function Experience() {

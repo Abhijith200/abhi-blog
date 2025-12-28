@@ -14,7 +14,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Next-Level Developer",
+  title: "Portfolio | React Developer",
   description: "Web developer portfolio showcasing projects and skills.",
 };
 

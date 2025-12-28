@@ -10,7 +10,7 @@ export function Footer() {
                         G<span className="text-primary">.</span>
                     </Link>
                     <p className="text-white/50 text-sm mt-2">
-                        © {new Date().getFullYear()} Gerold. All rights reserved.
+                        © {new Date().getFullYear()} Abhijith V. All rights reserved.
                     </p>
                 </div>
 

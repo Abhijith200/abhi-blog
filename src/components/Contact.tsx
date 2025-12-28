@@ -102,7 +102,7 @@ export function Contact() {
                             </div>
                             <div>
                                 <h4 className="text-white/50 font-medium text-sm mb-1">Phone</h4>
-                                <a href="tel:+01123456789" className="text-xl font-bold text-white hover:text-primary transition-colors">+01 123 456 789</a>
+                                <a href="tel:+917510928324" className="text-xl font-bold text-white hover:text-primary transition-colors">+91 7510928324</a>
                             </div>
                         </div>
 
@@ -112,7 +112,7 @@ export function Contact() {
                             </div>
                             <div>
                                 <h4 className="text-white/50 font-medium text-sm mb-1">Email</h4>
-                                <a href="mailto:gerolddesign@gmail.com" className="text-xl font-bold text-white hover:text-primary transition-colors">gerolddesign@gmail.com</a>
+                                <a href="mailto:abhijith.v1604@gmail.com" className="text-xl font-bold text-white hover:text-primary transition-colors">abhijith.v1604@gmail.com</a>
                             </div>
                         </div>
 
@@ -122,7 +122,7 @@ export function Contact() {
                             </div>
                             <div>
                                 <h4 className="text-white/50 font-medium text-sm mb-1">Address</h4>
-                                <p className="text-xl font-bold text-white max-w-[200px]">Warne Park Street, Pine, FL 33157, New York</p>
+                                <p className="text-xl font-bold text-white max-w-[200px]">Manjeri, Malappuram, Kerala</p>
                             </div>
                         </div>
                     </div>
