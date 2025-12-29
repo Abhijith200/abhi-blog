@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Github, Linkedin, Instagram } from "lucide-react";
 
 export function Footer() {
     return (
@@ -7,7 +7,7 @@ export function Footer() {
             <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
                 <div className="text-center md:text-left">
                     <Link href="/" className="text-2xl font-bold tracking-tighter">
-                        G<span className="text-primary">.</span>
+                        A<span className="text-primary">.</span>
                     </Link>
                     <p className="text-white/50 text-sm mt-2">
                         © {new Date().getFullYear()} Abhijith V. All rights reserved.
@@ -33,10 +33,16 @@ export function Footer() {
                 </ul>
 
                 <div className="flex items-center gap-4">
-                    {[Github, Twitter, Linkedin, Instagram].map((Icon, i) => (
+                    {[
+                        { Icon: Github, href: "https://github.com/Abhijith200" },
+                        { Icon: Linkedin, href: "https://www.linkedin.com/in/abhijith-v-1431a0336/" },
+                        { Icon: Instagram, href: "https://www.instagram.com/heyy.ab_hi_/" },
+                    ].map(({ Icon, href }, i) => (
                         <a
                             key={i}
-                            href="#"
+                            href={href}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white/70 hover:bg-primary hover:text-white transition-all hover:-translate-y-1"
                         >
                             <Icon size={18} />

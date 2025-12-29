@@ -12,8 +12,8 @@ const testimonials = [
     },
     {
         id: 2,
-        name: "Siyad",
-        role: "Marketing Director",
+        name: "Mohammed Nisham N K",
+        role: "CEO, Future Consultancy",
         content: "The attention to detail and creative solutions provided by Abhijith transformed our online presence completely.",
         image: "/client2.jpg",
     },

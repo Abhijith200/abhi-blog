@@ -1,16 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const skills = [
-    { name: "Figma", level: "90%", icon: "🎨" },
+    { name: "Figma", level: "90%", image: "/skills/figma.png" },
+    { name: "HTML5", level: "95%", image: "/skills/html.png" },
+    { name: "CSS3", level: "90%", image: "/skills/css.png" },
+    { name: "JavaScript", level: "85%", image: "/skills/javascript.png" },
+    { name: "Next.js", level: "80%", image: "/skills/nextjs.jpg" },
     { name: "React", level: "85%", icon: "⚛️" },
-    { name: "Next.js", level: "80%", icon: "▲" },
     { name: "TailwindCSS", level: "95%", icon: "🌊" },
-    { name: "TypeScript", level: "75%", icon: "🔷" },
-    { name: "JavaScript", level: "70%", icon: "🟩" },
-    { name: "HTML", level: "70%", icon: "🔷" },
-    { name: "CSS", level: "70%", icon: "" },
+    // { name: "Node.js", level: "70%", icon: "🟩" },
 ];
 
 export function Skills() {
@@ -26,7 +27,7 @@ export function Skills() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {skills.map((skill, index) => (
                         <motion.div
                             key={index}
@@ -36,8 +37,17 @@ export function Skills() {
                             viewport={{ once: true }}
                             className="bg-white/5 border border-white/5 rounded-3xl p-6 flex flex-col items-center justify-center gap-4 hover:bg-white/10 hover:border-primary/50 transition-all duration-300 group cursor-pointer"
                         >
-                            <div className="w-16 h-16 bg-black/50 rounded-2xl flex items-center justify-center text-3xl group-hover:scale-110 transition-transform">
-                                {skill.icon}
+                            <div className="w-16 h-16 bg-black/50 rounded-2xl flex items-center justify-center text-3xl group-hover:scale-110 transition-transform relative overflow-hidden p-2">
+                                {skill.image ? (
+                                    <Image
+                                        src={skill.image}
+                                        alt={skill.name}
+                                        fill
+                                        className="object-contain p-2"
+                                    />
+                                ) : (
+                                    skill.icon
+                                )}
                             </div>
                             <div className="text-center">
                                 <div className="text-primary font-bold text-xl mb-1">{skill.level}</div>

@@ -52,9 +52,6 @@ export function Navbar() {
                             {item.name}
                         </Link>
                     ))}
-                    <Button variant="primary" size="sm" className="ml-4">
-                        Hire Me
-                    </Button>
                 </div>
 
                 {/* Mobile Toggle */}
@@ -78,7 +75,7 @@ export function Navbar() {
                                 {item.name}
                             </Link>
                         ))}
-                        <Button className="w-full mt-4">Hire Me</Button>
+
                     </div>
                 )}
             </div>
