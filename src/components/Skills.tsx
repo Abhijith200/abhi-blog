@@ -6,9 +6,11 @@ const skills = [
     { name: "Figma", level: "90%", icon: "🎨" },
     { name: "React", level: "85%", icon: "⚛️" },
     { name: "Next.js", level: "80%", icon: "▲" },
-    { name: "Tailwind", level: "95%", icon: "🌊" },
+    { name: "TailwindCSS", level: "95%", icon: "🌊" },
     { name: "TypeScript", level: "75%", icon: "🔷" },
-    { name: "Node.js", level: "70%", icon: "🟩" },
+    { name: "JavaScript", level: "70%", icon: "🟩" },
+    { name: "HTML", level: "70%", icon: "🔷" },
+    { name: "CSS", level: "70%", icon: "" },
 ];
 
 export function Skills() {

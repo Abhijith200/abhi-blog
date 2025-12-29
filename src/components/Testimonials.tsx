@@ -5,16 +5,16 @@ import { Quote } from "lucide-react";
 const testimonials = [
     {
         id: 1,
-        name: "John Smith",
-        role: "CEO, Tech Corp",
-        content: "Gerold is an exceptional developer who delivered our project on time and exceeded our expectations. Highly recommended!",
+        name: "Faris Mohammed",
+        role: "CEO, Grayford Consultants",
+        content: "Abhijith is an exceptional developer who delivered our project on time and exceeded our expectations. Highly recommended!",
         image: "/client1.jpg",
     },
     {
         id: 2,
-        name: "Sarah Johnson",
+        name: "Siyad",
         role: "Marketing Director",
-        content: "The attention to detail and creative solutions provided by Gerold transformed our online presence completely.",
+        content: "The attention to detail and creative solutions provided by Abhijith transformed our online presence completely.",
         image: "/client2.jpg",
     },
 ];

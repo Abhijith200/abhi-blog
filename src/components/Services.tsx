@@ -17,8 +17,8 @@ const services = [
     },
     {
         id: "03",
-        title: "Content Writing",
-        description: "Crafting compelling content that engages your audience and drives conversions.",
+        title: "Social Media Marketing",
+        description: "Strategies to increase your online presence and reach your target audience effectively.",
     },
     {
         id: "04",

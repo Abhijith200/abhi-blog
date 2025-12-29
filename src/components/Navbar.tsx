@@ -38,7 +38,7 @@ export function Navbar() {
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
                 <Link href="/" className="text-2xl font-bold tracking-tighter">
-                    G<span className="text-primary">.</span>
+                    A<span className="text-primary">.</span>
                 </Link>
 
                 {/* Desktop Nav */}
