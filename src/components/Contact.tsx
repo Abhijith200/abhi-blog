@@ -16,8 +16,18 @@ export function Contact() {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        // Handle form submission
-        console.log(formData);
+        const { firstname, lastname, email, phone, service, message } = formData;
+
+        const subject = `Portfolio Inquiry from ${firstname} ${lastname}`;
+        const body = `Name: ${firstname} ${lastname}
+Email: ${email}
+Phone: ${phone}
+Service: ${service}
+
+Message:
+${message}`;
+
+        window.location.href = `mailto:abhijith.v1604@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     };
 
     return (

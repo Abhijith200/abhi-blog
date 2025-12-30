@@ -5,36 +5,36 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 
-const categories = ["All", "UI/UX", "Web Design", "App Design"];
+const categories = ["All", "UI/UX", "Web Design"];
 
 const projects = [
     {
         id: 1,
-        title: "Brand Journey",
-        description: "A strategic branding project focused on storytelling.",
+        title: "Fitness & Health",
+        description: "In pursuit of good health - A modern fitness experience platform.",
         category: "Web Design",
-        image: "/project1.jpg",
+        image: "/projects/fitness.jpg",
     },
     {
         id: 2,
-        title: "Crypto Dashboard",
-        description: "Real-time cryptocurrency tracking and analytics platform.",
-        category: "App Design",
-        image: "/project2.jpg",
+        title: "Job Placement Portal",
+        description: "Search between more than 50,000 open jobs with ease.",
+        category: "Web Design",
+        image: "/projects/job-placement.jpg",
     },
     {
         id: 3,
-        title: "E-Commerce Hub",
-        description: "Modern shopping experience with seamless checkout.",
+        title: "Business Consulting",
+        description: "GrayFord Consultants - Establish your business with confidence.",
         category: "Web Design",
-        image: "/project3.jpg",
+        image: "/projects/consulting.png",
     },
     {
         id: 4,
-        title: "Fitness Tracker",
-        description: "Mobile application for tracking workouts and nutrition.",
+        title: "Aurum & Stone Jewels",
+        description: "Hand-crafted heirloom jewelry inspired by tradition and modern aesthetics.",
         category: "UI/UX",
-        image: "/project4.jpg",
+        image: "/projects/jewelry.png",
     },
 ];
 
@@ -59,8 +59,8 @@ export function Work() {
                                 key={cat}
                                 onClick={() => setActiveCategory(cat)}
                                 className={`px-6 py-2 rounded-full text-sm font-medium transition-all ${activeCategory === cat
-                                        ? "bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg"
-                                        : "text-white/60 hover:text-white"
+                                    ? "bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg"
+                                    : "text-white/60 hover:text-white"
                                     }`}
                             >
                                 {cat}
@@ -82,14 +82,16 @@ export function Work() {
                                 className="group relative group rounded-3xl overflow-hidden border border-white/10 bg-white/5"
                             >
                                 <div className="relative aspect-[16/10] overflow-hidden">
-                                    {/* Placeholder for project image */}
-                                    <div className="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-900 group-hover:scale-105 transition-transform duration-500" />
-                                    <div className="absolute inset-0 flex items-center justify-center text-white/10 font-bold text-4xl">
-                                        Project Preview
-                                    </div>
+                                    <Image
+                                        src={project.image}
+                                        alt={project.title}
+                                        fill
+                                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                    />
+                                    <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                                 </div>
 
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-8 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex flex-col justify-end p-8 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                                     <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
                                     <p className="text-white/70 mb-4">{project.description}</p>
                                     <div className="flex justify-between items-center">

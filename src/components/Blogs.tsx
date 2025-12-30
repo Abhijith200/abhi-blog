@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 
 const blogs = [
@@ -7,21 +8,21 @@ const blogs = [
         title: "The Future of Web Development",
         date: "Dec 20, 2023",
         category: "Development",
-        image: "/blog1.jpg",
+        image: "/blogs/blog1.jpg",
     },
     {
         id: 2,
         title: "10 Tips for Better UI Design",
         date: "Nov 15, 2023",
         category: "Design",
-        image: "/blog2.jpg",
+        image: "/blogs/blog3.jpg",
     },
     {
         id: 3,
         title: "Understanding React Server Components",
         date: "Oct 05, 2023",
         category: "React",
-        image: "/blog3.jpg",
+        image: "/blogs/blog2.jpg",
     },
 ];
 
@@ -42,9 +43,13 @@ export function Blogs() {
                     {blogs.map((blog) => (
                         <div key={blog.id} className="group cursor-pointer">
                             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden mb-6 bg-white/5 border border-white/5">
-                                {/* Placeholder for Blog Image */}
-                                <div className="absolute inset-0 bg-gradient-to-br from-indigo-900 to-purple-900 group-hover:scale-105 transition-transform duration-500" />
-                                <div className="absolute top-4 left-4 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full text-xs font-medium text-white border border-white/10">
+                                <Image
+                                    src={blog.image}
+                                    alt={blog.title}
+                                    fill
+                                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                />
+                                <div className="absolute top-4 left-4 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full text-xs font-medium text-white border border-white/10 z-10">
                                     {blog.category}
                                 </div>
                             </div>
