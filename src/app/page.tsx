@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
+import { Stats } from "@/components/Stats";
 import { Services } from "@/components/Services";
 import { Work } from "@/components/Work";
 import { Experience } from "@/components/Experience";
@@ -14,6 +15,7 @@ export default function Home() {
     <main className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <Navbar />
       <Hero />
+      <Stats />
       <Services />
       <Work />
       <Experience />

@@ -32,12 +32,12 @@ export function Navbar() {
             className={cn(
                 "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
                 scrolled
-                    ? "bg-background/80 backdrop-blur-md border-b border-white/5 py-4"
+                    ? "bg-background/80 backdrop-blur-md border-b border-foreground/10 py-4"
                     : "bg-transparent py-6"
             )}
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
-                <Link href="/" className="text-2xl font-bold tracking-tighter">
+                <Link href="/" className="text-2xl font-bold tracking-tighter text-foreground">
                     A<span className="text-primary">.</span>
                 </Link>
 
@@ -47,7 +47,7 @@ export function Navbar() {
                         <Link
                             key={item.name}
                             href={item.href}
-                            className="text-sm font-medium text-white/70 hover:text-primary transition-colors"
+                            className="text-sm font-medium text-foreground/70 hover:text-primary transition-colors"
                         >
                             {item.name}
                         </Link>
