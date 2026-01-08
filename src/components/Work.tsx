@@ -14,6 +14,7 @@ const projects = [
         description: "In pursuit of good health - A modern fitness experience platform.",
         category: "Web Design",
         image: "/projects/project4.png",
+        link: "#",
     },
     {
         id: 2,
@@ -21,6 +22,7 @@ const projects = [
         description: "Search between more than 50,000 open jobs with ease.",
         category: "Web Design",
         image: "/projects/project2.png",
+        link: "#",
     },
     {
         id: 3,
@@ -28,6 +30,7 @@ const projects = [
         description: "GrayFord Consultants - Establish your business with confidence.",
         category: "Web Design",
         image: "/projects/grayford.jpg",
+        link: "#",
     },
     {
         id: 4,
@@ -35,6 +38,7 @@ const projects = [
         description: "Hand-crafted heirloom jewelry inspired by tradition and modern aesthetics.",
         category: "UI/UX",
         image: "/projects/jewelry.png",
+        link: "#",
     },
 ];
 
@@ -96,7 +100,9 @@ export function Work() {
                                     <p className="text-white/70 mb-4">{project.description}</p>
                                     <div className="flex justify-between items-center">
                                         <span className="text-sm font-medium text-primary">{project.category}</span>
-                                        <Button size="sm" variant="outline" className="rounded-full border-white/20">View Project</Button>
+                                        <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                            <Button size="sm" variant="outline" className="rounded-full border-white/20">View Project</Button>
+                                        </a>
                                     </div>
                                 </div>
                             </motion.div>
