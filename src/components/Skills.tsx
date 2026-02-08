@@ -11,8 +11,11 @@ const skills = [
     { name: "Next.js", image: "/skills/nextjs.jpg" },
     { name: "React", image: "/skills/react.png" },
     { name: "TailwindCSS", image: "/skills/Tailwind_CSS_Logo.svg.png" },
+    { name: "TypeScript", image: "/skills/typescript.png" },
     { name: "GitHub", image: "/skills/github.png" },
     { name: "Git", image: "/skills/git.png" },
+    { name: "Firebase", image: "/skills/firebase1.png" },
+
 ];
 
 export function Skills() {
