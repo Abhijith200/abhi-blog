@@ -17,6 +17,13 @@ const testimonials = [
         content: "The attention to detail and creative solutions provided by Abhijith transformed our online presence completely.",
         image: "/client2.jpg",
     },
+    {
+        id: 3,
+        name: "Sulaiman Oorakkam",
+        role: "CEO, Career Map Global",
+        content: "The attention to detail and creative solutions provided by Abhijith transformed our online presence completely.",
+        image: "/client2.jpg",
+    },
 ];
 
 export function Testimonials() {

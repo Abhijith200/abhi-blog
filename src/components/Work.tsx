@@ -5,41 +5,49 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 
-const categories = ["All", "UI/UX", "Web Design"];
+const categories = ["All", "Digital Marketing", "Web Development"];
 
 const projects = [
     {
         id: 1,
         title: "Fitness & Health",
         description: "In pursuit of good health - A modern fitness experience platform.",
-        category: "Web Design",
+        category: "Web Development",
         image: "/projects/project4.png",
-        link: "#",
+        link: "https://slog-fitness.web.app/",
     },
     {
         id: 2,
         title: "Job Placement Portal",
-        description: "Search between more than 50,000 open jobs with ease.",
-        category: "Web Design",
+        description: "Job Listing & Career Placement Web Application",
+        category: "Web Development",
         image: "/projects/project2.png",
-        link: "#",
+        link: "https://betterjob-placement.web.app/",
     },
     {
         id: 3,
         title: "Business Consulting",
         description: "GrayFord Consultants - Establish your business with confidence.",
-        category: "Web Design",
+        category: "Digital Marketing",
         image: "/projects/grayford.jpg",
-        link: "#",
+        link: "https://www.grayfordconsultants.com/",
     },
     {
         id: 4,
         title: "Aurum & Stone Jewels",
         description: "Hand-crafted heirloom jewelry inspired by tradition and modern aesthetics.",
-        category: "UI/UX",
+        category: "Web Development",
         image: "/projects/jewelry.png",
-        link: "#",
+        link: "http://aurum-gold-two.vercel.app/",
     },
+    // {
+    //     id: 5,
+    //     title: "Company Website",
+    //     description: "",
+    //     category: "UI/UX",
+    //     image: "",
+    //     link: "",
+    // },
 ];
 
 export function Work() {
