@@ -12,7 +12,7 @@ const stats = [
         label: "Project Completed",
     },
     {
-        value: "10",
+        value: "10+",
         label: "Happy Clients",
     },
     // {
