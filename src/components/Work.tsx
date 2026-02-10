@@ -37,7 +37,7 @@ const projects = [
         title: "Aurum & Stone Jewels",
         description: "Hand-crafted heirloom jewelry inspired by tradition and modern aesthetics.",
         category: "Web Development",
-        image: "/projects/jewelry.png",
+        image: "/projects/project3.jpeg",
         link: "http://aurum-gold-two.vercel.app/",
     },
     // {
