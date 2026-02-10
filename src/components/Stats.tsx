@@ -15,10 +15,10 @@ const stats = [
         value: "10+",
         label: "Happy Clients",
     },
-    // {
-    //     value: "2",
-    //     label: "Years of Experience", // Intentionally duplicating as per visual if needed, but let's assume it's "Awards Won" or just keeping 3 for now to be safe, but user image had 4. Let's make the 4th one "Years of Experience" or maybe it was a mistake. I will stick to 3 unique ones or make the 4th "Awards Won" to be safe. Actually, looking at the image provided in context, it specifically says "14 Years of Experience" again. It might be a carousel. I'll just render 4 items as requested.
-    // },
+    {
+        value: "10+",
+        label: "Client Reviews",
+    },
 ];
 
 export function Stats() {

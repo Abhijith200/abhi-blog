@@ -37,9 +37,16 @@ export function Hero() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center gap-8 mb-12">
-                        <Button variant="outline" className="rounded-full px-8 py-6 text-lg border-purple-500/50 hover:bg-purple-500/10 transition-colors w-full sm:w-auto flex justify-between sm:justify-center">
-                            Download CV <Download size={20} className="ml-2" />
-                        </Button>
+                        <a
+                            href="/cv/abhi_frontend.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-full sm:w-auto"
+                        >
+                            <Button variant="outline" className="rounded-full px-8 py-6 text-lg border-purple-500/50 hover:bg-purple-500/10 transition-colors w-full sm:w-auto flex justify-between sm:justify-center">
+                                Download CV <Download size={20} className="ml-2" />
+                            </Button>
+                        </a>
 
                         {/* Social Icons */}
                         <div className="flex items-center gap-4 w-full sm:w-auto justify-center sm:justify-start">
