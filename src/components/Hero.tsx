@@ -33,7 +33,7 @@ export function Hero() {
                         Developer.
                     </h1>
                     <p className="text-white/60 text-lg max-w-lg mb-8 leading-relaxed">
-                        ReactJS Developer with 1+ years of experience, skilled in HTML, CSS, JavaScript, and React.js, passionate about building responsive, user-friendly, and visually appealing web interfaces with a strong focus on continuous learning and quality delivery.
+                        ReactJS Developer with 2 years of experience, skilled in HTML, CSS, JavaScript, and React.js, passionate about building responsive, user-friendly, and visually appealing web interfaces with a strong focus on continuous learning and quality delivery.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center gap-8 mb-12">
