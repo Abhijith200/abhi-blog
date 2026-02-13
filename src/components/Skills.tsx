@@ -15,6 +15,7 @@ const skills = [
     { name: "GitHub", image: "/skills/github.png" },
     { name: "Git", image: "/skills/git.png" },
     { name: "Firebase", image: "/skills/firebase1.png" },
+    { name: "Bootstrap", image: "/skills/bootstrap.png" },
 
 ];
 
