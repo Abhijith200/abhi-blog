@@ -18,7 +18,7 @@ const services = [
     {
         id: "03",
         title: "Social Media Marketing",
-        description: "Strategies to increase your online presence and reach your target audience effectively.",
+        description: "Helping businesses build a strong online presence through creative content, audience interaction, and effective social media growth strategies.",
     },
     {
         id: "04",
