@@ -75,7 +75,6 @@ export function Navbar() {
                                 {item.name}
                             </Link>
                         ))}
-
                     </div>
                 )}
             </div>

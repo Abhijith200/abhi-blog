@@ -89,6 +89,8 @@ ${message}`;
                                 <option value="web" className="text-black">Web Design</option>
                                 <option value="ux" className="text-black">UI/UX Design</option>
                                 <option value="dev" className="text-black">Web Development</option>
+                                <option value="dev" className="text-black">Digital Marketing</option>
+                                <option value="dev" className="text-black">Social Media Marketing</option>
                             </select>
 
                             <textarea
