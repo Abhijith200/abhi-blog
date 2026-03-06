@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({
         className={`${outfit.variable} ${inter.variable} antialiased bg-background text-foreground scroll-smooth selection:bg-purple-500/30 font-sans`}
       >
         {children}
+        <WhatsAppButton />
       </body>
     </html>
   );
