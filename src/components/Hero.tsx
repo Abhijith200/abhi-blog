@@ -38,7 +38,7 @@ export function Hero() {
 
                     <div className="flex flex-col sm:flex-row items-center gap-8 mb-12">
                         <a
-                            href="/cv/abhi_frontend.pdf"
+                            href="/cv/abhijith_v.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-full sm:w-auto"
@@ -61,6 +61,12 @@ export function Hero() {
                             </Link>
                             <Link href="https://www.instagram.com/heyy.ab_hi_/" className="w-10 h-10 rounded-full border border-purple-500/50 flex items-center justify-center text-purple-400 hover:bg-purple-500 hover:text-white transition-all">
                                 <Instagram size={18} />
+                            </Link>
+                            <Link href="#" className="w-10 h-10 rounded-full border border-purple-500/50 flex items-center justify-center text-purple-400 hover:bg-purple-500 hover:text-white transition-all">
+                                <Twitter size={18} />
+                            </Link>
+                            <Link href="#" className="w-10 h-10 rounded-full border border-purple-500/50 flex items-center justify-center text-purple-400 hover:bg-purple-500 hover:text-white transition-all">
+                                <Facebook size={18} />
                             </Link>
                         </div>
                     </div>
