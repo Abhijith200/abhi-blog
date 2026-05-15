@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 
-const categories = ["All", "Digital Marketing", "Web Development"];
+const categories = ["Web Development"];
 
 const projects = [
     {
@@ -29,7 +29,7 @@ const projects = [
         id: 3,
         title: "Business Consulting",
         description: "GrayFord Consultants - Establish your business with confidence.",
-        category: "Digital Marketing",
+        category: "Web Development",
         image: "/projects/grayford.jpg",
         link: "https://www.grayfordconsultants.com/",
     },
@@ -42,7 +42,7 @@ const projects = [
         link: "http://aurum-gold-two.vercel.app/",
     },
     {
-        id: 4,
+        id: 5,
         title: "GridView Marketing Agency",
         description: "A Modern Digital Marketing Agency",
         category: "Web Development",
@@ -50,7 +50,7 @@ const projects = [
         link: "https://gridviewmarketing.vercel.app/",
     },
     {
-        id: 4,
+        id: 6,
         title: "Origon",
         description: "Premium Chocolate Brand Website",
         category: "Web Development",
