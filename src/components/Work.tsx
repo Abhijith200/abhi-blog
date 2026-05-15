@@ -62,9 +62,13 @@ const projects = [
 export function Work({ showMore = false }: { showMore?: boolean }) {
     const [activeCategory, setActiveCategory] = useState("All");
 
-    const filteredProjects = activeCategory === "All"
+    let filteredProjects = activeCategory === "All"
         ? projects
         : projects.filter((p) => p.category === activeCategory);
+
+    if (showMore) {
+        filteredProjects = filteredProjects.slice(0, 4);
+    }
 
     return (
         <section id="work" className="py-24 bg-background">
