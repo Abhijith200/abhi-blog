@@ -41,6 +41,22 @@ const projects = [
         image: "/projects/project3.jpeg",
         link: "http://aurum-gold-two.vercel.app/",
     },
+    {
+        id: 4,
+        title: "GridView Marketing Agency",
+        description: "A Modern Digital Marketing Agency",
+        category: "Web Development",
+        image: "/projects/gridview.png",
+        link: "https://gridviewmarketing.vercel.app/",
+    },
+    {
+        id: 4,
+        title: "Origon",
+        description: "Premium Chocolate Brand Website",
+        category: "Web Development",
+        image: "/projects/origon.png",
+        link: "https://origon-in.vercel.app/",
+    },
 ];
 
 export function Work({ showMore = false }: { showMore?: boolean }) {
@@ -115,7 +131,7 @@ export function Work({ showMore = false }: { showMore?: boolean }) {
                     <div className="flex justify-center mt-16">
                         <Link href="/work">
                             <Button size="lg" variant="outline" className="rounded-full px-8 border-purple-500/50 hover:bg-purple-500/10 transition-all group">
-                                View All Projects 
+                                View All Projects
                                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
                             </Button>
                         </Link>
