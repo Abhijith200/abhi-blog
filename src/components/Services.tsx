@@ -7,23 +7,28 @@ import { cn } from "@/lib/utils";
 const services = [
     {
         id: "01",
-        title: "Web Development",
-        description: "Building responsive and performant websites using modern technologies like React, Next.js, and scaling them for growth.",
+        title: "Frontend Development",
+        description: "I build fast, responsive, and scalable web applications using modern technologies like React.js, JavaScript, and Tailwind CSS. My focus is on delivering clean code and seamless user experiences across all devices.",
     },
     {
         id: "02",
-        title: "UI/UX Design",
-        description: "Creating intuitive and visually appealing interfaces that prioritize user experience and brand identity.",
+        title: "UI/UX Implementation",
+        description: "I transform designs into pixel-perfect, interactive user interfaces. Whether it’s from Figma or custom ideas, I ensure visually appealing and user-friendly layouts with smooth interactions.",
     },
     {
         id: "03",
-        title: "Social Media Marketing",
-        description: "Helping businesses build a strong online presence through creative content, audience interaction, and effective social media growth strategies.",
+        title: "Component-Based Development",
+        description: "I develop reusable and modular UI components, making your application scalable, maintainable, and efficient for future growth.",
     },
     {
         id: "04",
-        title: "Digital Marketing",
-        description: "Strategies to increase your online presence and reach your target audience effectively.",
+        title: "Website Development",
+        description: "I create different types of websites tailored to your needs: Business & Company Websites, Portfolio Websites, Landing Pages, Job Portals & Listing Platforms, Service-based Websites.",
+    },
+    {
+        id: "05",
+        title: "Deployment & Maintenance",
+        description: "I deploy websites using platforms like Vercel and Firebase, ensuring smooth performance and continuous updates. I also provide ongoing maintenance and support.",
     },
 ];
 
@@ -35,7 +40,7 @@ export function Services() {
             <div className="container mx-auto px-6">
                 <div className="flex flex-col items-center text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-white mb-4">
-                        My Quality Services
+                        My Services
                     </h2>
                     <p className="text-white/60 max-w-2xl">
                         We put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.

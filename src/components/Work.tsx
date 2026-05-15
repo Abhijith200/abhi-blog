@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -40,17 +41,9 @@ const projects = [
         image: "/projects/project3.jpeg",
         link: "http://aurum-gold-two.vercel.app/",
     },
-    // {
-    //     id: 5,
-    //     title: "Company Website",
-    //     description: "",
-    //     category: "UI/UX",
-    //     image: "",
-    //     link: "",
-    // },
 ];
 
-export function Work() {
+export function Work({ showMore = false }: { showMore?: boolean }) {
     const [activeCategory, setActiveCategory] = useState("All");
 
     const filteredProjects = activeCategory === "All"
@@ -117,6 +110,17 @@ export function Work() {
                         ))}
                     </AnimatePresence>
                 </motion.div>
+
+                {showMore && (
+                    <div className="flex justify-center mt-16">
+                        <Link href="/work">
+                            <Button size="lg" variant="outline" className="rounded-full px-8 border-purple-500/50 hover:bg-purple-500/10 transition-all group">
+                                View All Projects 
+                                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                            </Button>
+                        </Link>
+                    </div>
+                )}
             </div>
         </section>
     );

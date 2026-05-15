@@ -7,12 +7,12 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-    { name: "Home", href: "#home" },
-    { name: "Services", href: "#services" },
-    { name: "Work", href: "#work" },
-    { name: "Experience", href: "#experience" },
-    { name: "Skills", href: "#skills" },
-    { name: "Contact", href: "#contact" },
+    { name: "Home", href: "/" },
+    { name: "Services", href: "/#services" },
+    { name: "Work", href: "/work" },
+    { name: "Experience", href: "/#experience" },
+    { name: "Skills", href: "/#skills" },
+    { name: "Contact", href: "/#contact" },
 ];
 
 export function Navbar() {

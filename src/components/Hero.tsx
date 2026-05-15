@@ -38,7 +38,7 @@ export function Hero() {
 
                     <div className="flex flex-col sm:flex-row items-center gap-8 mb-12">
                         <a
-                            href="/cv/abhijith_v.pdf"
+                            href="/cv/abhi_react.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-full sm:w-auto"

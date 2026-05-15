@@ -16,17 +16,17 @@ export function Footer() {
 
                 <ul className="flex items-center gap-8 text-sm font-medium text-white/70">
                     <li>
-                        <Link href="#services" className="hover:text-primary transition-colors">
+                        <Link href="/#services" className="hover:text-primary transition-colors">
                             Services
                         </Link>
                     </li>
                     <li>
-                        <Link href="#work" className="hover:text-primary transition-colors">
+                        <Link href="/work" className="hover:text-primary transition-colors">
                             Work
                         </Link>
                     </li>
                     <li>
-                        <Link href="#contact" className="hover:text-primary transition-colors">
+                        <Link href="/#contact" className="hover:text-primary transition-colors">
                             Contact
                         </Link>
                     </li>
