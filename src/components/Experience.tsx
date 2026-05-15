@@ -11,7 +11,7 @@ const experience = [
         color: "group-hover:text-purple-400",
     },
     {
-        date: "2024 - 2025",
+        date: "2024 - 2026",
         title: "Software Associate",
         company: "CVS Info Solutions",
         color: "group-hover:text-pink-400",

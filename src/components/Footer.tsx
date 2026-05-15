@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Linkedin, Instagram } from "lucide-react";
+import { Github, Linkedin, Instagram, Twitter, Facebook } from "lucide-react";
 
 export function Footer() {
     return (
@@ -37,6 +37,8 @@ export function Footer() {
                         { Icon: Github, href: "https://github.com/Abhijith200" },
                         { Icon: Linkedin, href: "https://www.linkedin.com/in/abhijith-v-1431a0336/" },
                         { Icon: Instagram, href: "https://www.instagram.com/heyy.ab_hi_/" },
+                        { Icon: Twitter, href: "#" },
+                        { Icon: Facebook, href: "#" },
                     ].map(({ Icon, href }, i) => (
                         <a
                             key={i}
