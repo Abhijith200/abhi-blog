@@ -29,16 +29,16 @@ export function Hero() {
                 >
                     <h2 className="text-2xl md:text-3xl font-medium mb-4 text-white">I am Abhijith V</h2>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-none mb-6">
-                        <span className="text-purple-500">Frontend</span> React <br />
+                        <span className="text-purple-500">Frontend</span><br />
                         Developer.
                     </h1>
                     <p className="text-white/60 text-lg max-w-lg mb-8 leading-relaxed">
-                        ReactJS Developer with 2 years of experience, skilled in HTML, CSS, JavaScript, and React.js, passionate about building responsive, user-friendly, and visually appealing web interfaces with a strong focus on continuous learning and quality delivery.
+                        Frontend Developer with 1+ years of experience, skilled in HTML, CSS, JavaScript, and React.js, passionate about building responsive, user-friendly, and visually appealing web interfaces with a strong focus on continuous learning and quality delivery.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center gap-8 mb-12">
                         <a
-                            href="/cv/abhi_react.pdf"
+                            href="/cv/abhijith._v.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-full sm:w-auto"
@@ -62,12 +62,12 @@ export function Hero() {
                             <Link href="https://www.instagram.com/heyy.ab_hi_/" className="w-10 h-10 rounded-full border border-purple-500/50 flex items-center justify-center text-purple-400 hover:bg-purple-500 hover:text-white transition-all">
                                 <Instagram size={18} />
                             </Link>
-                            <Link href="#" className="w-10 h-10 rounded-full border border-purple-500/50 flex items-center justify-center text-purple-400 hover:bg-purple-500 hover:text-white transition-all">
+                            {/* <Link href="#" className="w-10 h-10 rounded-full border border-purple-500/50 flex items-center justify-center text-purple-400 hover:bg-purple-500 hover:text-white transition-all">
                                 <Twitter size={18} />
                             </Link>
                             <Link href="#" className="w-10 h-10 rounded-full border border-purple-500/50 flex items-center justify-center text-purple-400 hover:bg-purple-500 hover:text-white transition-all">
                                 <Facebook size={18} />
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </motion.div>
