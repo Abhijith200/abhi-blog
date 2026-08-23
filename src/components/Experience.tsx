@@ -4,24 +4,24 @@ import { BadgeCheck, GraduationCap } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const experience = [
-    // {
-    //     date: "2024 - Present",
-    //     title: "Frontend React Developer",
-    //     company: "Future Consultancy",
-    //     color: "group-hover:text-purple-400",
-    // },
+    {
+        date: "2026 - Present",
+        title: "Frontend React Developer",
+        company: "Niveosys Technologies",
+        color: "group-hover:text-purple-400",
+    },
+    {
+        date: "2024 - Present",
+        title: "Frontend Developer",
+        company: "Future Consultancy",
+        color: "group-hover:text-pink-400",
+    },
     {
         date: "2024 - 2025",
         title: "Software Associate",
         company: "CVS Info Solutions",
-        color: "group-hover:text-pink-400",
+        color: "group-hover:text-blue-400",
     },
-    // {
-    //     date: "2019 - 2021",
-    //     title: "Frontend Developer",
-    //     company: "StartUp Hub",
-    //     color: "group-hover:text-blue-400",
-    // },
     // {
     //     date: "2018 - 2019",
     //     title: "Junior Developer",
