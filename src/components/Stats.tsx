@@ -36,8 +36,8 @@ function AnimatedCounter({ value, suffix, isVisible }: { value: number; suffix: 
 
 const stats = [
     {
-        value: 2,
-        suffix: "",
+        value: 1,
+        suffix: "+",
         label: "Years of Experience",
     },
     {
