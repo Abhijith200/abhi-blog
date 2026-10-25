@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const skills = [
-    { name: "Figma", image: "/skills/figma.png" },
+   
     { name: "HTML5", image: "/skills/html.png" },
     { name: "CSS3", image: "/skills/css.png" },
     { name: "JavaScript", image: "/skills/js1.jpg" },
@@ -12,10 +12,12 @@ const skills = [
     { name: "React", image: "/skills/react.png" },
     { name: "TailwindCSS", image: "/skills/Tailwind_CSS_Logo.svg.png" },
     { name: "TypeScript", image: "/skills/typescript.png" },
-    { name: "GitHub", image: "/skills/github.png" },
     { name: "Git", image: "/skills/git.png" },
+    { name: "Figma", image: "/skills/figma.png" },
     { name: "Firebase", image: "/skills/firebase1.png" },
     { name: "Bootstrap", image: "/skills/bootstrap.png" },
+    { name: "Wordpress", image: "/skills/wordpress.png" },
+    { name: "Duda", image: "/skills/duda.png" },
 
 ];
 
