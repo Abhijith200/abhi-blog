@@ -5,7 +5,13 @@ import { cn } from "@/lib/utils";
 
 const experience = [
     {
-        date: "2026 - Present",
+        date: "2026 - present",
+        title: "Frontend Developer",
+        company: "Niyadina Solutions",
+        color: "group-hover:text-purple-400",
+    },
+    {
+        date: "2026 - 2026",
         title: "Frontend React Developer",
         company: "Niveosys Technologies",
         color: "group-hover:text-purple-400",
